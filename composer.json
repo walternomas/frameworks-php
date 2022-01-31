@@ -1,0 +1,13 @@
+{
+    "name": "walternomas/frameworks-php",
+    "description": "Introducción a Frameworks PHP 2022",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Walter Barrios",
+            "email": "wbarriosvazquez@gmail.com"
+        }
+    ],
+    "require": {}
+}

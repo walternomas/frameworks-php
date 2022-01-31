@@ -9,5 +9,13 @@
             "email": "wbarriosvazquez@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+	},
+	"files": [
+            "app/helpers.php"
+        ]
+    }
 }

@@ -6,7 +6,7 @@ class Response
 {
     protected $view; //array, json, pdf...
 
-    public function __construct()
+    public function __construct($view)
     {
         $this->view = $view; // home, contact
     }

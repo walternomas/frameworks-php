@@ -10,7 +10,8 @@ class Request
 
     public function __construct()
     {
-        // platzi.test/servicios/index
+        // para URLs del tipo ejemplo.test/servicios/index
+        // sino utilizar php -S localhost:8080
 	$this->segments = explode('/', $_SERVER['REQUEST_URI']);
 
 	$this->setController();
